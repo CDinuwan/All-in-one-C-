@@ -1,0 +1,13 @@
+C:\Users\hecdi\source\repos\CSharp Begining to Advance\CSharp Begining to Advance\bin\Debug\netcoreapp3.1\CSharp Begining to Advance.exe
+C:\Users\hecdi\source\repos\CSharp Begining to Advance\CSharp Begining to Advance\bin\Debug\netcoreapp3.1\CSharp Begining to Advance.deps.json
+C:\Users\hecdi\source\repos\CSharp Begining to Advance\CSharp Begining to Advance\bin\Debug\netcoreapp3.1\CSharp Begining to Advance.runtimeconfig.json
+C:\Users\hecdi\source\repos\CSharp Begining to Advance\CSharp Begining to Advance\bin\Debug\netcoreapp3.1\CSharp Begining to Advance.runtimeconfig.dev.json
+C:\Users\hecdi\source\repos\CSharp Begining to Advance\CSharp Begining to Advance\bin\Debug\netcoreapp3.1\CSharp Begining to Advance.dll
+C:\Users\hecdi\source\repos\CSharp Begining to Advance\CSharp Begining to Advance\bin\Debug\netcoreapp3.1\CSharp Begining to Advance.pdb
+C:\Users\hecdi\source\repos\CSharp Begining to Advance\CSharp Begining to Advance\obj\Debug\netcoreapp3.1\CSharp Begining to Advance.csprojAssemblyReference.cache
+C:\Users\hecdi\source\repos\CSharp Begining to Advance\CSharp Begining to Advance\obj\Debug\netcoreapp3.1\CSharp Begining to Advance.AssemblyInfoInputs.cache
+C:\Users\hecdi\source\repos\CSharp Begining to Advance\CSharp Begining to Advance\obj\Debug\netcoreapp3.1\CSharp Begining to Advance.AssemblyInfo.cs
+C:\Users\hecdi\source\repos\CSharp Begining to Advance\CSharp Begining to Advance\obj\Debug\netcoreapp3.1\CSharp Begining to Advance.csproj.CoreCompileInputs.cache
+C:\Users\hecdi\source\repos\CSharp Begining to Advance\CSharp Begining to Advance\obj\Debug\netcoreapp3.1\CSharp Begining to Advance.dll
+C:\Users\hecdi\source\repos\CSharp Begining to Advance\CSharp Begining to Advance\obj\Debug\netcoreapp3.1\CSharp Begining to Advance.pdb
+C:\Users\hecdi\source\repos\CSharp Begining to Advance\CSharp Begining to Advance\obj\Debug\netcoreapp3.1\CSharp Begining to Advance.genruntimeconfig.cache
