@@ -1,16 +1,39 @@
 ﻿using System;
 using System.Globalization;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Runtime.InteropServices;
 using System.Text;
 
 namespace CSharp_Begining_to_Advance
 {
+    //class Car
+    //{
+    //    public string Make { get; set; }
+    //    public string Model { get; set; }
+    //    public int Year { get; set; }
+    //    public string Color { get; set; }
+    //}
     class Program
     {
+        //private static decimal DetermineValue(Car car)
+        //{
+        //    decimal carValue = 100.0M;
+        //    return carValue;
+        //}
+        
         static void Main(string[] args)
-        {
-            /*
+        {/*
+            Car myCar = new Car();
+            myCar.Make = "HutchPack";
+            myCar.Model = "Bens";
+            myCar.Year = 2020;
+            myCar.Color = "Brown";
+
+            Console.WriteLine("{0} {1} {2} {3}", myCar.Make, myCar.Model, myCar.Year, myCar.Color);
+            decimal Val = DetermineValue(myCar);
+            Console.WriteLine("{0:C}",Val);
+            
             Console.WriteLine("Hello World!");
 
             //Variable
