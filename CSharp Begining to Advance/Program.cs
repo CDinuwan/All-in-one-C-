@@ -7,13 +7,29 @@ using System.Text;
 
 namespace CSharp_Begining_to_Advance
 {
-    //class Car
-    //{
-    //    public string Make { get; set; }
-    //    public string Model { get; set; }
-    //    public int Year { get; set; }
-    //    public string Color { get; set; }
-    //}
+    class Car
+    {
+        //public string Make { get; set; }
+        //public string Model { get; set; }
+        //public int Year { get; set; }
+        //public string Color { get; set; }
+
+        //public Car()
+        //{
+        //    this.Make = "Nissan";
+        //}
+        //public Car(string Model,string Make,int Year,string Color)
+        //{
+        //    this.Model = Model;
+        //    this.Make = Make;
+        //    this.Year = Year;
+        //    this.Color = Color;
+        //}
+        //public static void StaticClass()
+        //{
+        //    Console.WriteLine("Call the static method");
+        //}
+    }
     class Program
     {
         //private static decimal DetermineValue(Car car)
@@ -21,16 +37,35 @@ namespace CSharp_Begining_to_Advance
         //    decimal carValue = 100.0M;
         //    return carValue;
         //}
-        
+        //private static string k="Method";
+        //static void Helper()
+        //{
+        //    Console.WriteLine(k + "Helper");
+        //}
         static void Main(string[] args)
-        {/*
-            Car myCar = new Car();
-            myCar.Make = "HutchPack";
-            myCar.Model = "Bens";
-            myCar.Year = 2020;
-            myCar.Color = "Brown";
+        {
+            //Helper();
+            //string j = "Num is ";//global variable
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    Console.WriteLine(j+i);//local variable
+            //}
+            //Console.WriteLine(k);
+            //Car.StaticClass();
+            //Car myCar = new Car("Toyota", "OldModel", 2000, "Red");
+            //Console.WriteLine(myCar.Year);
 
-            Console.WriteLine("{0} {1} {2} {3}", myCar.Make, myCar.Model, myCar.Year, myCar.Color);
+            //myCar.Make = "OldModel";
+            //myCar.Model = "Bens";
+            //myCar.Year = 2020; 
+            //myCar.Color = "Brown";
+
+            //Car myOtherCar = null;
+            //myOtherCar.Model = "98";//Change value also myCar
+
+            //Console.WriteLine("{0} {1} {2} {3}", myOtherCar.Make, myOtherCar.Model, myOtherCar.Year, myOtherCar.Color);
+
+            /*Console.WriteLine("{0} {1} {2} {3}", myCar.Make, myCar.Model, myCar.Year, myCar.Color);
             decimal Val = DetermineValue(myCar);
             Console.WriteLine("{0:C}",Val);
             
