@@ -1,16 +1,22 @@
 ﻿using System;
 using System.Globalization;
+using System.IO;
 using System.Linq;
+using System.Net;
 using System.Reflection.Emit;
 using System.Runtime.InteropServices;
 using System.Text;
+using System.Net;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace CSharp_Begining_to_Advance
 {
     class Car
     {
-        //public string Make { get; set; }
-        //public string Model { get; set; }
+        public string Vin { get; set; }
+        public string Make { get; set; }
+        public string Model { get; set; }
         //public int Year { get; set; }
         //public string Color { get; set; }
 
@@ -30,8 +36,14 @@ namespace CSharp_Begining_to_Advance
         //    Console.WriteLine("Call the static method");
         //}
     }
+    class Book
+    {
+        public string bookTitle { get; set; }
+        public string Author { get; set; }
+    }
     class Program
     {
+        //double time = 5.52;
         //private static decimal DetermineValue(Car car)
         //{
         //    decimal carValue = 100.0M;
@@ -44,6 +56,12 @@ namespace CSharp_Begining_to_Advance
         //}
         static void Main(string[] args)
         {
+
+            //WebClient client = new WebClient();
+            //string reply = client.DownloadString("http://www.google.com");
+
+            //Console.WriteLine(reply);
+            //File.WriteAllText(@"D:\writeText.txt", reply);
             //Helper();
             //string j = "Num is ";//global variable
             //for (int i = 0; i < 10; i++)
@@ -55,8 +73,67 @@ namespace CSharp_Begining_to_Advance
             //Car myCar = new Car("Toyota", "OldModel", 2000, "Red");
             //Console.WriteLine(myCar.Year);
 
-            //myCar.Make = "OldModel";
-            //myCar.Model = "Bens";
+            //Car myCar = new Car();
+            //myCar.Vin = "AI";
+            //myCar.Make = "Honda";
+
+            //Dictionary<string,Car>myDictionary=new Dictionary<string, Car>();
+            //myDictionary.Add(myCar.Vin, myCar);
+
+            //Console.WriteLine(myDictionary["AI"].Make);
+
+            //Car car1 = new Car()
+            //{
+            //    Make = "BMW",
+            //    Model = "Honda",
+            //    Vin = "C3"
+            //};
+
+            //List<Car> myList = new List<Car>()
+            //{
+            //    new Car{Make="oldModel",Model="Honda",Vin="Es"},
+            //    new Car{Make="Nissan",Model="Saloon",Vin="Ess"}
+            //};
+
+            //var Nissan = from car in myList
+            //             where car.Make == "Nissan"
+            //             && car.Vin== "Ess"
+            //             select car;
+
+            //foreach (var car in Nissan)
+            //{
+            //    Console.WriteLine("{0} {1}",car.Make, car.Model, car.Vin);
+            //}
+
+            //var oldmodel = myList.Where(p => p.Make == "oldModel");
+            //foreach (var item in oldmodel)
+            //{
+            //    Console.WriteLine("{0} {1}", item.Make, item.Model, item.Vin);
+            //}
+
+            //var FirstCar = myList.First(p => p.Make == "oldModel");
+            //Console.WriteLine(FirstCar.Vin);
+
+            //List<Car> myList = new List<Car>();
+            //myList.Add(myCar);
+            //foreach (Car mycar in myList)
+            //{
+            //    Console.WriteLine(myCar.Model);
+            //}
+
+            //Book b1 = new Book();
+            //b1.bookTitle = "Harry Potter";
+            //b1.Author = "Lianado";
+
+            //ArrayList myArrayList = new ArrayList();
+            //myArrayList.Add(myCar);
+            //myArrayList.Add(b1);
+            //myArrayList.Remove(b1);
+
+            //foreach (Car car in myArrayList)
+            //{
+            //    Console.WriteLine(car.Make);
+            //}
             //myCar.Year = 2020; 
             //myCar.Color = "Brown";
 
@@ -68,7 +145,7 @@ namespace CSharp_Begining_to_Advance
             /*Console.WriteLine("{0} {1} {2} {3}", myCar.Make, myCar.Model, myCar.Year, myCar.Color);
             decimal Val = DetermineValue(myCar);
             Console.WriteLine("{0:C}",Val);
-            
+
             Console.WriteLine("Hello World!");
 
             //Variable
@@ -77,12 +154,12 @@ namespace CSharp_Begining_to_Advance
             int xy = 10;
             Console.WriteLine(xy);
 
-            
+
             Console.ReadLine();
 
             Console.WriteLine("What is your fitst name?");
             string name = Console.ReadLine();
-            Console.WriteLine("Hello " + name);
+            Console.WriteLine("Hello " + name); 
 
             int val = 9;
             if(val==9)
@@ -97,7 +174,7 @@ namespace CSharp_Begining_to_Advance
             {
                 Console.WriteLine("Value Error");
             }
-            
+
 
             //Expression made up with one or operators and operands
             for (int i = 0; i < 11; i++)
